@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh Cheegiti | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/my-image-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <h1>Port<span>folio</span> | Mahesh <span>Cheegiti</span></h1>
+        </div>
+        <input id="btn" type="checkbox">
+        <label id="menu" for="btn"><i class="fa-solid fa-bars"></i></label>
+        <nav class="nav">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="blog.html">
+                    <li>Blog</li>
+                </a>
+                <a href="contact.html">
+                    <li id="active">Contact Me</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-two">
+        <div>
+            <h1>Stop by And</h1>
+            <h1>Say Hi!</h1>
+        </div>
+    </div>
+    <!-- contact container -->
+    <section class="contact-container">
+        <div class="left-contact">
+            <span>
+                <h1>Let's Talk</h1>
+            </span>
+            <a href="#">
+                <p><i class="fa-brands fa-whatsapp"></i> +918639838411</p>
+            </a>
+            <a href="#">
+                <p><i class="fa-solid fa-envelope"></i> ramahesh024@gmail.com</p>
+            </a>
+            <a href="#">
+                <p><i class="fa-solid fa-graduation-cap"></i> 21pa1a0528@vishnu.edu.in</p>
+            </a>
+            <img id="arrow" src="img/arrow.png" alt="arrow">
+        </div>
+        <div class="right-contact">
+            <form action="#">
+                <span>
+                    <p>Ready to start a journey together?
+                        Fill the form below and let's connect!
+                    </p>
+                </span>
+                <div><input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name"></div>
+                <div> <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Company"></div>
+                <input type="file" id="file-upload">
+                <label id="labelfile" for="file-upload">Choose a file (Optional) <i class="fa-solid fa-paperclip"></i></label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea><br>
+                <span>
+                    <h3>Ready to start a journey together?
+                        Fill the form below and let's connect!
+                    </h3>
+                </span>
+                <input type="checkbox" name="reason" id="opt1">
+                <label for="opt1">I need help with my company billings</label><br>
+                <input type="checkbox" name="reason" id="opt2">
+                <label for="opt2">I need some advice</label><br>
+                <input type="checkbox" name="reason" id="opt3">
+                <label for="opt3">I am looking for someone to hire</label><br>
+                <input type="checkbox" name="reason" id="opt4">
+                <label for="opt4">Something else</label><br>
+                <button>Contact me</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/4d482375c9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
