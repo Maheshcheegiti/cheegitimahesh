@@ -472,7 +472,8 @@ input[type="checkbox"]{
     }
     .blog .blog-image img{
         margin: 25px 0;
-        height: 150px;
+        height: 175px;
+        padding: 0;
     }
     /* conatct page */
     .contact-container{
