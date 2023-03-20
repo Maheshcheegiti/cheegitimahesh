@@ -382,10 +382,12 @@ input[type="checkbox"]{
     .nav ul li{
         display: block;
         margin: 20px 15px;
+        background-color: #00000055;
     }
     #active{
-        color: #000000;
-        border: 2px solid #000000;
+        background-color: #388ac955;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
     }
 
     /* main-container */
